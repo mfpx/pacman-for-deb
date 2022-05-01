@@ -1,0 +1,257 @@
+[
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibcommon.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libcommon.a.p/src_common_ini.c.o -MF libcommon.a.p/src_common_ini.c.o.d -o libcommon.a.p/src_common_ini.c.o -c ../src/common/ini.c",
+    "file": "../src/common/ini.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibcommon.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libcommon.a.p/src_common_util-common.c.o -MF libcommon.a.p/src_common_util-common.c.o.d -o libcommon.a.p/src_common_util-common.c.o -c ../src/common/util-common.c",
+    "file": "../src/common/util-common.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_add.c.o -MF libalpm_objlib.a.p/lib_libalpm_add.c.o.d -o libalpm_objlib.a.p/lib_libalpm_add.c.o -c ../lib/libalpm/add.c",
+    "file": "../lib/libalpm/add.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_alpm.c.o -MF libalpm_objlib.a.p/lib_libalpm_alpm.c.o.d -o libalpm_objlib.a.p/lib_libalpm_alpm.c.o -c ../lib/libalpm/alpm.c",
+    "file": "../lib/libalpm/alpm.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_alpm_list.c.o -MF libalpm_objlib.a.p/lib_libalpm_alpm_list.c.o.d -o libalpm_objlib.a.p/lib_libalpm_alpm_list.c.o -c ../lib/libalpm/alpm_list.c",
+    "file": "../lib/libalpm/alpm_list.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_backup.c.o -MF libalpm_objlib.a.p/lib_libalpm_backup.c.o.d -o libalpm_objlib.a.p/lib_libalpm_backup.c.o -c ../lib/libalpm/backup.c",
+    "file": "../lib/libalpm/backup.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_base64.c.o -MF libalpm_objlib.a.p/lib_libalpm_base64.c.o.d -o libalpm_objlib.a.p/lib_libalpm_base64.c.o -c ../lib/libalpm/base64.c",
+    "file": "../lib/libalpm/base64.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_be_local.c.o -MF libalpm_objlib.a.p/lib_libalpm_be_local.c.o.d -o libalpm_objlib.a.p/lib_libalpm_be_local.c.o -c ../lib/libalpm/be_local.c",
+    "file": "../lib/libalpm/be_local.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_be_package.c.o -MF libalpm_objlib.a.p/lib_libalpm_be_package.c.o.d -o libalpm_objlib.a.p/lib_libalpm_be_package.c.o -c ../lib/libalpm/be_package.c",
+    "file": "../lib/libalpm/be_package.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_be_sync.c.o -MF libalpm_objlib.a.p/lib_libalpm_be_sync.c.o.d -o libalpm_objlib.a.p/lib_libalpm_be_sync.c.o -c ../lib/libalpm/be_sync.c",
+    "file": "../lib/libalpm/be_sync.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_conflict.c.o -MF libalpm_objlib.a.p/lib_libalpm_conflict.c.o.d -o libalpm_objlib.a.p/lib_libalpm_conflict.c.o -c ../lib/libalpm/conflict.c",
+    "file": "../lib/libalpm/conflict.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_db.c.o -MF libalpm_objlib.a.p/lib_libalpm_db.c.o.d -o libalpm_objlib.a.p/lib_libalpm_db.c.o -c ../lib/libalpm/db.c",
+    "file": "../lib/libalpm/db.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_deps.c.o -MF libalpm_objlib.a.p/lib_libalpm_deps.c.o.d -o libalpm_objlib.a.p/lib_libalpm_deps.c.o -c ../lib/libalpm/deps.c",
+    "file": "../lib/libalpm/deps.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_diskspace.c.o -MF libalpm_objlib.a.p/lib_libalpm_diskspace.c.o.d -o libalpm_objlib.a.p/lib_libalpm_diskspace.c.o -c ../lib/libalpm/diskspace.c",
+    "file": "../lib/libalpm/diskspace.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_dload.c.o -MF libalpm_objlib.a.p/lib_libalpm_dload.c.o.d -o libalpm_objlib.a.p/lib_libalpm_dload.c.o -c ../lib/libalpm/dload.c",
+    "file": "../lib/libalpm/dload.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_error.c.o -MF libalpm_objlib.a.p/lib_libalpm_error.c.o.d -o libalpm_objlib.a.p/lib_libalpm_error.c.o -c ../lib/libalpm/error.c",
+    "file": "../lib/libalpm/error.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_filelist.c.o -MF libalpm_objlib.a.p/lib_libalpm_filelist.c.o.d -o libalpm_objlib.a.p/lib_libalpm_filelist.c.o -c ../lib/libalpm/filelist.c",
+    "file": "../lib/libalpm/filelist.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_graph.c.o -MF libalpm_objlib.a.p/lib_libalpm_graph.c.o.d -o libalpm_objlib.a.p/lib_libalpm_graph.c.o -c ../lib/libalpm/graph.c",
+    "file": "../lib/libalpm/graph.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_group.c.o -MF libalpm_objlib.a.p/lib_libalpm_group.c.o.d -o libalpm_objlib.a.p/lib_libalpm_group.c.o -c ../lib/libalpm/group.c",
+    "file": "../lib/libalpm/group.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_handle.c.o -MF libalpm_objlib.a.p/lib_libalpm_handle.c.o.d -o libalpm_objlib.a.p/lib_libalpm_handle.c.o -c ../lib/libalpm/handle.c",
+    "file": "../lib/libalpm/handle.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_hook.c.o -MF libalpm_objlib.a.p/lib_libalpm_hook.c.o.d -o libalpm_objlib.a.p/lib_libalpm_hook.c.o -c ../lib/libalpm/hook.c",
+    "file": "../lib/libalpm/hook.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_log.c.o -MF libalpm_objlib.a.p/lib_libalpm_log.c.o.d -o libalpm_objlib.a.p/lib_libalpm_log.c.o -c ../lib/libalpm/log.c",
+    "file": "../lib/libalpm/log.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_package.c.o -MF libalpm_objlib.a.p/lib_libalpm_package.c.o.d -o libalpm_objlib.a.p/lib_libalpm_package.c.o -c ../lib/libalpm/package.c",
+    "file": "../lib/libalpm/package.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_pkghash.c.o -MF libalpm_objlib.a.p/lib_libalpm_pkghash.c.o.d -o libalpm_objlib.a.p/lib_libalpm_pkghash.c.o -c ../lib/libalpm/pkghash.c",
+    "file": "../lib/libalpm/pkghash.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_rawstr.c.o -MF libalpm_objlib.a.p/lib_libalpm_rawstr.c.o.d -o libalpm_objlib.a.p/lib_libalpm_rawstr.c.o -c ../lib/libalpm/rawstr.c",
+    "file": "../lib/libalpm/rawstr.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_remove.c.o -MF libalpm_objlib.a.p/lib_libalpm_remove.c.o.d -o libalpm_objlib.a.p/lib_libalpm_remove.c.o -c ../lib/libalpm/remove.c",
+    "file": "../lib/libalpm/remove.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_signing.c.o -MF libalpm_objlib.a.p/lib_libalpm_signing.c.o.d -o libalpm_objlib.a.p/lib_libalpm_signing.c.o -c ../lib/libalpm/signing.c",
+    "file": "../lib/libalpm/signing.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_sync.c.o -MF libalpm_objlib.a.p/lib_libalpm_sync.c.o.d -o libalpm_objlib.a.p/lib_libalpm_sync.c.o -c ../lib/libalpm/sync.c",
+    "file": "../lib/libalpm/sync.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_trans.c.o -MF libalpm_objlib.a.p/lib_libalpm_trans.c.o.d -o libalpm_objlib.a.p/lib_libalpm_trans.c.o -c ../lib/libalpm/trans.c",
+    "file": "../lib/libalpm/trans.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_util.c.o -MF libalpm_objlib.a.p/lib_libalpm_util.c.o.d -o libalpm_objlib.a.p/lib_libalpm_util.c.o -c ../lib/libalpm/util.c",
+    "file": "../lib/libalpm/util.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ilibalpm_objlib.a.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -I/usr/include/x86_64-linux-gnu -fvisibility=hidden -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -fPIC -MD -MQ libalpm_objlib.a.p/lib_libalpm_version.c.o -MF libalpm_objlib.a.p/lib_libalpm_version.c.o.d -o libalpm_objlib.a.p/lib_libalpm_version.c.o -c ../lib/libalpm/version.c",
+    "file": "../lib/libalpm/version.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman.p/src_pacman_check.c.o -MF pacman.p/src_pacman_check.c.o.d -o pacman.p/src_pacman_check.c.o -c ../src/pacman/check.c",
+    "file": "../src/pacman/check.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman.p/src_pacman_conf.c.o -MF pacman.p/src_pacman_conf.c.o.d -o pacman.p/src_pacman_conf.c.o -c ../src/pacman/conf.c",
+    "file": "../src/pacman/conf.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman.p/src_pacman_database.c.o -MF pacman.p/src_pacman_database.c.o.d -o pacman.p/src_pacman_database.c.o -c ../src/pacman/database.c",
+    "file": "../src/pacman/database.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman.p/src_pacman_deptest.c.o -MF pacman.p/src_pacman_deptest.c.o.d -o pacman.p/src_pacman_deptest.c.o -c ../src/pacman/deptest.c",
+    "file": "../src/pacman/deptest.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman.p/src_pacman_files.c.o -MF pacman.p/src_pacman_files.c.o.d -o pacman.p/src_pacman_files.c.o -c ../src/pacman/files.c",
+    "file": "../src/pacman/files.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman.p/src_pacman_package.c.o -MF pacman.p/src_pacman_package.c.o.d -o pacman.p/src_pacman_package.c.o -c ../src/pacman/package.c",
+    "file": "../src/pacman/package.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman.p/src_pacman_pacman.c.o -MF pacman.p/src_pacman_pacman.c.o.d -o pacman.p/src_pacman_pacman.c.o -c ../src/pacman/pacman.c",
+    "file": "../src/pacman/pacman.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman.p/src_pacman_query.c.o -MF pacman.p/src_pacman_query.c.o.d -o pacman.p/src_pacman_query.c.o -c ../src/pacman/query.c",
+    "file": "../src/pacman/query.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman.p/src_pacman_remove.c.o -MF pacman.p/src_pacman_remove.c.o.d -o pacman.p/src_pacman_remove.c.o -c ../src/pacman/remove.c",
+    "file": "../src/pacman/remove.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman.p/src_pacman_sighandler.c.o -MF pacman.p/src_pacman_sighandler.c.o.d -o pacman.p/src_pacman_sighandler.c.o -c ../src/pacman/sighandler.c",
+    "file": "../src/pacman/sighandler.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman.p/src_pacman_sync.c.o -MF pacman.p/src_pacman_sync.c.o.d -o pacman.p/src_pacman_sync.c.o -c ../src/pacman/sync.c",
+    "file": "../src/pacman/sync.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman.p/src_pacman_callback.c.o -MF pacman.p/src_pacman_callback.c.o.d -o pacman.p/src_pacman_callback.c.o -c ../src/pacman/callback.c",
+    "file": "../src/pacman/callback.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman.p/src_pacman_upgrade.c.o -MF pacman.p/src_pacman_upgrade.c.o.d -o pacman.p/src_pacman_upgrade.c.o -c ../src/pacman/upgrade.c",
+    "file": "../src/pacman/upgrade.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman.p/src_pacman_util.c.o -MF pacman.p/src_pacman_util.c.o.d -o pacman.p/src_pacman_util.c.o -c ../src/pacman/util.c",
+    "file": "../src/pacman/util.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman-conf.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman-conf.p/src_pacman_pacman-conf.c.o -MF pacman-conf.p/src_pacman_pacman-conf.c.o.d -o pacman-conf.p/src_pacman_pacman-conf.c.o -c ../src/pacman/pacman-conf.c",
+    "file": "../src/pacman/pacman-conf.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman-conf.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman-conf.p/src_pacman_util.c.o -MF pacman-conf.p/src_pacman_util.c.o.d -o pacman-conf.p/src_pacman_util.c.o -c ../src/pacman/util.c",
+    "file": "../src/pacman/util.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman-conf.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman-conf.p/src_pacman_callback.c.o -MF pacman-conf.p/src_pacman_callback.c.o.d -o pacman-conf.p/src_pacman_callback.c.o -c ../src/pacman/callback.c",
+    "file": "../src/pacman/callback.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ipacman-conf.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ pacman-conf.p/src_pacman_conf.c.o -MF pacman-conf.p/src_pacman_conf.c.o.d -o pacman-conf.p/src_pacman_conf.c.o -c ../src/pacman/conf.c",
+    "file": "../src/pacman/conf.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Itestpkg.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ testpkg.p/src_util_testpkg.c.o -MF testpkg.p/src_util_testpkg.c.o.d -o testpkg.p/src_util_testpkg.c.o -c ../src/util/testpkg.c",
+    "file": "../src/util/testpkg.c"
+  },
+  {
+    "directory": "/home/david/pacman/build",
+    "command": "cc -Ivercmp.p -I. -I.. -Isrc/common -I../src/common -Ilib/libalpm -I../lib/libalpm -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -g -Wcast-align -Wclobbered -Wempty-body -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wignored-qualifiers -Wimplicit-fallthrough -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-field-initializers -Wmissing-parameter-type -Wmissing-prototypes -Wold-style-declaration -Woverride-init -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-overflow=5 -Wstrict-prototypes -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-parameter -Wwrite-strings -include config.h -MD -MQ vercmp.p/src_util_vercmp.c.o -MF vercmp.p/src_util_vercmp.c.o.d -o vercmp.p/src_util_vercmp.c.o -c ../src/util/vercmp.c",
+    "file": "../src/util/vercmp.c"
+  }
+]

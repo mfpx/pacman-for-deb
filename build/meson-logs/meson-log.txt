@@ -1,0 +1,1376 @@
+Build started at 2022-04-30T18:32:51.392717
+Main binary: /usr/bin/python3
+Build Options: -Dbuildtype=debug
+Python system: Linux
+The Meson build system
+Version: 0.56.2
+Source dir: /home/david/pacman
+Build dir: /home/david/pacman/build
+Build type: native build
+Project name: pacman
+Project version: 6.0.1
+C compiler for the host machine: cc (gcc 11.2.0 "cc (Ubuntu 11.2.0-7ubuntu2) 11.2.0")
+C linker for the host machine: cc ld.bfd 2.37
+None of 'AR' are defined in the environment, not changing global flags.
+C compiler for the build machine: cc (gcc 11.2.0 "cc (Ubuntu 11.2.0-7ubuntu2) 11.2.0")
+C linker for the build machine: cc ld.bfd 2.37
+None of 'AR' are defined in the environment, not changing global flags.
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program python3 found: YES (/usr/bin/python3)
+Program bash found: YES (/usr/bin/bash)
+Running command: /usr/bin/bash -c IFS=.; echo "${BASH_VERSINFO[*]:0:3}"
+--- stdout ---
+5.1.8
+
+--- stderr ---
+
+
+Dependency bash-completion found: YES 2.11 (cached)
+WARNING: Project targeting '>= 0.56' but tried to use feature deprecated since '0.56.0': Dependency.get_pkgconfig_variable. use Dependency.get_variable(pkgconfig : ...) instead
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=completionsdir bash-completion` -> 0
+/usr/share/bash-completion/completions
+Got pkgconfig variable completionsdir : /usr/share/bash-completion/completions
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #define ngettext meson_disable_define_of_ngettext
+        
+        #include <limits.h>
+        #undef ngettext
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char ngettext (void);
+        
+        #if defined __stub_ngettext || defined __stub___ngettext
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return ngettext ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "ngettext" : YES (cached)
+Dependency libarchive found: YES 3.4.3 (cached)
+Dependency libcurl found: YES 7.74.0 (cached)
+Dependency gpgme found: YES 1.14.0-unknown (cached)
+Dependency libcrypto found: YES 1.1.1l (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("mntent.h")
+          #error "Header 'mntent.h' could not be found"
+         #endif
+        #else
+         #include <mntent.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "mntent.h" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/mnttab.h")
+          #error "Header 'sys/mnttab.h' could not be found"
+         #endif
+        #else
+         #include <sys/mnttab.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /home/david/pacman/build/meson-private/tmp2i4pk4km/testfile.c:4:12: error: #error "Header 'sys/mnttab.h' could not be found"
+    4 |           #error "Header 'sys/mnttab.h' could not be found"
+      |            ^~~~~
+
+Has header "sys/mnttab.h" : NO (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/mount.h")
+          #error "Header 'sys/mount.h' could not be found"
+         #endif
+        #else
+         #include <sys/mount.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/mount.h" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/param.h")
+          #error "Header 'sys/param.h' could not be found"
+         #endif
+        #else
+         #include <sys/param.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/param.h" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/statvfs.h")
+          #error "Header 'sys/statvfs.h' could not be found"
+         #endif
+        #else
+         #include <sys/statvfs.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/statvfs.h" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/types.h")
+          #error "Header 'sys/types.h' could not be found"
+         #endif
+        #else
+         #include <sys/types.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/types.h" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/ucred.h")
+          #error "Header 'sys/ucred.h' could not be found"
+         #endif
+        #else
+         #include <sys/ucred.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /home/david/pacman/build/meson-private/tmpk0zp7llc/testfile.c:4:12: error: #error "Header 'sys/ucred.h' could not be found"
+    4 |           #error "Header 'sys/ucred.h' could not be found"
+      |            ^~~~~
+
+Has header "sys/ucred.h" : NO (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("termios.h")
+          #error "Header 'termios.h' could not be found"
+         #endif
+        #else
+         #include <termios.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "termios.h" : YES (cached)
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #define getmntent meson_disable_define_of_getmntent
+        
+        #include <limits.h>
+        #undef getmntent
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getmntent (void);
+        
+        #if defined __stub_getmntent || defined __stub___getmntent
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getmntent ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "getmntent" : YES (cached)
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #define getmntinfo meson_disable_define_of_getmntinfo
+        
+        #include <limits.h>
+        #undef getmntinfo
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getmntinfo (void);
+        
+        #if defined __stub_getmntinfo || defined __stub___getmntinfo
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getmntinfo ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /usr/bin/ld: /tmp/ccih9ufs.o: in function `main':
+testfile.c:(.text+0x9): undefined reference to `getmntinfo'
+collect2: error: ld returned 1 exit status
+
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        int main(void) {
+
+        /* With some toolchains (MSYS2/mingw for example) the compiler
+         * provides various builtins which are not really implemented and
+         * fall back to the stdlib where they aren't provided and fail at
+         * build/link time. In case the user provides a header, including
+         * the header didn't lead to the function being defined, and the
+         * function we are checking isn't a builtin itself we assume the
+         * builtin is not functional and we just error out. */
+        #if !1 && !defined(getmntinfo) && !0
+            #error "No definition for __builtin_getmntinfo found in the prefix"
+        #endif
+
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_getmntinfo)
+                #error "__builtin_getmntinfo not found"
+            #endif
+        #elif ! defined(getmntinfo)
+            __builtin_getmntinfo;
+        #endif
+        return 0;
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /home/david/pacman/build/meson-private/tmpfxwa9t51/testfile.c: In function 'main':
+/home/david/pacman/build/meson-private/tmpfxwa9t51/testfile.c:17:18: error: #error "__builtin_getmntinfo not found"
+   17 |                 #error "__builtin_getmntinfo not found"
+      |                  ^~~~~
+
+Checking for function "getmntinfo" : NO (cached)
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #define strndup meson_disable_define_of_strndup
+        
+        #include <limits.h>
+        #undef strndup
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char strndup (void);
+        
+        #if defined __stub_strndup || defined __stub___strndup
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return strndup ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /home/david/pacman/build/meson-private/tmpxo1432tf/testfile.c:10:14: warning: conflicting types for built-in function 'strndup'; expected 'char *(const char *, long unsigned int)' [-Wbuiltin-declaration-mismatch]
+   10 |         char strndup (void);
+      |              ^~~~~~~
+
+Checking for function "strndup" : YES (cached)
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #define strnlen meson_disable_define_of_strnlen
+        
+        #include <limits.h>
+        #undef strnlen
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char strnlen (void);
+        
+        #if defined __stub_strnlen || defined __stub___strnlen
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return strnlen ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /home/david/pacman/build/meson-private/tmprabgp6oz/testfile.c:10:14: warning: conflicting types for built-in function 'strnlen'; expected 'long unsigned int(const char *, long unsigned int)' [-Wbuiltin-declaration-mismatch]
+   10 |         char strnlen (void);
+      |              ^~~~~~~
+
+Checking for function "strnlen" : YES (cached)
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #define strsep meson_disable_define_of_strsep
+        
+        #include <limits.h>
+        #undef strsep
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char strsep (void);
+        
+        #if defined __stub_strsep || defined __stub___strsep
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return strsep ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "strsep" : YES (cached)
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #define swprintf meson_disable_define_of_swprintf
+        
+        #include <limits.h>
+        #undef swprintf
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char swprintf (void);
+        
+        #if defined __stub_swprintf || defined __stub___swprintf
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return swprintf ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "swprintf" : YES (cached)
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #define tcflush meson_disable_define_of_tcflush
+        
+        #include <limits.h>
+        #undef tcflush
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char tcflush (void);
+        
+        #if defined __stub_tcflush || defined __stub___tcflush
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return tcflush ();
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for function "tcflush" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ #include <sys/stat.h>
+        void bar(void) {
+            struct stat foo;
+            foo.st_blksize;
+
+        };
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking whether type "struct stat" has member "st_blksize" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ #include <sys/statvfs.h>
+        void bar(void) {
+            struct statvfs foo;
+            foo.f_flag;
+
+        };
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking whether type "struct statvfs" has member "f_flag" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ #include <sys/param.h>
+                                    #include <sys/mount.h>
+        void bar(void) {
+            struct statfs foo;
+            foo.f_flags;
+
+        };
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /home/david/pacman/build/meson-private/tmpo3lvzrka/testfile.c: In function 'bar':
+/home/david/pacman/build/meson-private/tmpo3lvzrka/testfile.c:4:27: error: storage size of 'foo' isn't known
+    4 |             struct statfs foo;
+      |                           ^~~
+
+Checking whether type "struct statfs" has member "f_flags" : NO (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ #include <sys/types.h>
+        void bar(void) {
+            sizeof(mode_t);
+        };
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for type "mode_t" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ #include <sys/types.h>
+        void bar(void) {
+            sizeof(uid_t);
+        };
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for type "uid_t" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ #include <sys/types.h>
+        void bar(void) {
+            sizeof(off_t);
+        };
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for type "off_t" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ #include <sys/types.h>
+        void bar(void) {
+            sizeof(pid_t);
+        };
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for type "pid_t" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ #include <sys/types.h>
+        void bar(void) {
+            sizeof(size_t);
+        };
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for type "size_t" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ #include <sys/types.h>
+        void bar(void) {
+            sizeof(ssize_t);
+        };
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for type "ssize_t" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ #include <stdint.h>
+        void bar(void) {
+            sizeof(int64_t);
+        };
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Checking for type "int64_t" : YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wcast-align: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wclobbered: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wempty-body: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wfloat-equal: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wformat-nonliteral: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wformat-security: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wignored-qualifiers: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wimplicit-fallthrough: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Winit-self: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wlogical-op: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-declarations: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-field-initializers: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-parameter-type: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-prototypes: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wold-style-declaration: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Woverride-init: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wpointer-arith: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wredundant-decls: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wshadow: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wsign-compare: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-aliasing: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-overflow=5: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-prototypes: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wtype-limits: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wuninitialized: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wunused-but-set-parameter: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wunused-parameter: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wwrite-strings: YES (cached)
+Configuring config.h using configuration
+Running command: /usr/bin/sh -c file --version | sed -n "s/^file-\(.*\)/\1/p"
+--- stdout ---
+5.39
+
+--- stderr ---
+
+
+Running command: /usr/bin/cc -dumpmachine
+--- stdout ---
+x86_64-linux-gnu
+
+--- stderr ---
+
+
+Configuring edit-script.sh using configuration
+Program edit-script.sh found: YES (/usr/bin/bash /home/david/pacman/build/scripts/edit-script.sh)
+Program /home/david/pacman/build-aux/meson-make-symlink.sh found: YES (/bin/sh /home/david/pacman/build-aux/meson-make-symlink.sh)
+Configuring libmakepkg.pc using configuration
+Program asciidoc found: NO
+Program a2x found: NO
+Configuring makepkg using configuration
+Configuring pacman-db-upgrade using configuration
+Configuring pacman-key using configuration
+Configuring repo-add using configuration
+Configuring repo-remove using configuration
+Configuring repo-elephant using configuration
+Configuring makepkg.conf using configuration
+Configuring pacman.conf using configuration
+Program sh found: YES (/usr/bin/sh)
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/david/pacman/build/meson-private/tmpztig2hjq
+Command line:  cc /home/david/pacman/build/meson-private/tmpztig2hjq/testfile.c -o /home/david/pacman/build/meson-private/tmpztig2hjq/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(ssize_t)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Checking for size of "ssize_t" : 8
+Adding test "backup001.py"
+Adding test "clean001.py"
+Adding test "clean002.py"
+Adding test "clean003.py"
+Adding test "clean004.py"
+Adding test "clean005.py"
+Adding test "config001.py"
+Adding test "config002.py"
+Adding test "database001.py"
+Adding test "database002.py"
+Adding test "database010.py"
+Adding test "database011.py"
+Adding test "database012.py"
+Adding test "dbonly-extracted-files.py"
+Adding test "depconflict100.py"
+Adding test "depconflict110.py"
+Adding test "depconflict111.py"
+Adding test "depconflict120.py"
+Adding test "dependency-cycle-fixed-by-upgrade.py"
+Adding test "deprange001.py"
+Adding test "deptest001.py"
+Adding test "dummy001.py"
+Adding test "epoch001.py"
+Adding test "epoch002.py"
+Adding test "epoch003.py"
+Adding test "epoch004.py"
+Adding test "epoch005.py"
+Adding test "epoch010.py"
+Adding test "epoch011.py"
+Adding test "epoch012.py"
+Adding test "file-conflict-with-installed-pkg.py"
+Adding test "fileconflict001.py"
+Adding test "fileconflict002.py"
+Adding test "fileconflict003.py"
+Adding test "fileconflict004.py"
+Adding test "fileconflict005.py"
+Adding test "fileconflict006.py"
+Adding test "fileconflict007.py"
+Adding test "fileconflict008.py"
+Adding test "fileconflict009.py"
+Adding test "fileconflict010.py"
+Adding test "fileconflict011.py"
+Adding test "fileconflict012.py"
+Adding test "fileconflict013.py"
+Adding test "fileconflict015.py"
+Adding test "fileconflict016.py"
+Adding test "fileconflict017.py"
+Adding test "fileconflict020.py"
+Adding test "fileconflict021.py"
+Adding test "fileconflict022.py"
+Adding test "fileconflict023.py"
+Adding test "fileconflict024.py"
+Adding test "fileconflict025.py"
+Adding test "fileconflict030.py"
+Adding test "fileconflict031.py"
+Adding test "fileconflict032.py"
+Adding test "hook-abortonfail.py"
+Adding test "hook-description-reused.py"
+Adding test "hook-exec-reused.py"
+Adding test "hook-exec-with-arguments.py"
+Adding test "hook-file-change-packages.py"
+Adding test "hook-file-remove-trigger-match.py"
+Adding test "hook-file-upgrade-nomatch.py"
+Adding test "hook-invalid-trigger.py"
+Adding test "hook-pkg-install-trigger-match.py"
+Adding test "hook-pkg-postinstall-trigger-match.py"
+Adding test "hook-pkg-remove-trigger-match.py"
+Adding test "hook-pkg-upgrade-trigger-match.py"
+Adding test "hook-target-list.py"
+Adding test "hook-type-reused.py"
+Adding test "hook-upgrade-trigger-no-match.py"
+Adding test "hook-when-reused.py"
+Adding test "ignore001.py"
+Adding test "ignore002.py"
+Adding test "ignore003.py"
+Adding test "ignore004.py"
+Adding test "ignore005.py"
+Adding test "ignore006.py"
+Adding test "ignore007.py"
+Adding test "ignore008.py"
+Adding test "ldconfig001.py"
+Adding test "ldconfig002.py"
+Adding test "ldconfig003.py"
+Adding test "mode001.py"
+Adding test "mode002.py"
+Adding test "mode003.py"
+Adding test "multiple-architectures01.py"
+Adding test "multiple-architectures02.py"
+Adding test "noupgrade-inverted.py"
+Adding test "overwrite-files-match-negated.py"
+Adding test "overwrite-files-match.py"
+Adding test "overwrite-files-nonmatch.py"
+Adding test "pacman001.py"
+Adding test "pacman002.py"
+Adding test "pacman003.py"
+Adding test "pacman004.py"
+Adding test "pacman005.py"
+Adding test "provision001.py"
+Adding test "provision002.py"
+Adding test "provision003.py"
+Adding test "provision004.py"
+Adding test "provision010.py"
+Adding test "provision011.py"
+Adding test "provision012.py"
+Adding test "provision020.py"
+Adding test "provision021.py"
+Adding test "provision022.py"
+Adding test "query001.py"
+Adding test "query002.py"
+Adding test "query003.py"
+Adding test "query004.py"
+Adding test "query005.py"
+Adding test "query006.py"
+Adding test "query007.py"
+Adding test "query010.py"
+Adding test "query011.py"
+Adding test "query012.py"
+Adding test "querycheck001.py"
+Adding test "querycheck002.py"
+Adding test "querycheck_fast_file_type.py"
+Adding test "reason001.py"
+Adding test "remove-assumeinstalled.py"
+Adding test "remove-directory-replaced-with-symlink.py"
+Adding test "remove-optdepend-of-installed-package.py"
+Adding test "remove-recursive-cycle.py"
+Adding test "remove001.py"
+Adding test "remove002.py"
+Adding test "remove010.py"
+Adding test "remove011.py"
+Adding test "remove012.py"
+Adding test "remove020.py"
+Adding test "remove021.py"
+Adding test "remove030.py"
+Adding test "remove031.py"
+Adding test "remove040.py"
+Adding test "remove041.py"
+Adding test "remove042.py"
+Adding test "remove043.py"
+Adding test "remove044.py"
+Adding test "remove045.py"
+Adding test "remove047.py"
+Adding test "remove049.py"
+Adding test "remove050.py"
+Adding test "remove051.py"
+Adding test "remove052.py"
+Adding test "remove060.py"
+Adding test "remove070.py"
+Adding test "remove071.py"
+Adding test "replace-and-upgrade-package.py"
+Adding test "replace100.py"
+Adding test "replace101.py"
+Adding test "replace102.py"
+Adding test "replace103.py"
+Adding test "replace104.py"
+Adding test "replace110.py"
+Adding test "scriptlet001.py"
+Adding test "scriptlet002.py"
+Adding test "scriptlet-signal-handling.py"
+Adding test "scriptlet-signal-reset.py"
+Adding test "sign001.py"
+Adding test "sign002.py"
+Adding test "skip-remove-with-glob-chars.py"
+Adding test "smoke001.py"
+Adding test "smoke002.py"
+Adding test "smoke003.py"
+Adding test "smoke004.py"
+Adding test "symlink-replace-with-dir.py"
+Adding test "symlink001.py"
+Adding test "symlink002.py"
+Adding test "symlink010.py"
+Adding test "symlink011.py"
+Adding test "symlink012.py"
+Adding test "symlink020.py"
+Adding test "symlink021.py"
+Adding test "sync-failover-404-with-body.py"
+Adding test "sync-install-assumeinstalled.py"
+Adding test "sync-nodepversion01.py"
+Adding test "sync-nodepversion02.py"
+Adding test "sync-nodepversion03.py"
+Adding test "sync-nodepversion04.py"
+Adding test "sync-nodepversion05.py"
+Adding test "sync-nodepversion06.py"
+Adding test "sync-sysupgrade-print-replaced-packages.py"
+Adding test "sync-update-assumeinstalled.py"
+Adding test "sync-update-package-removing-required-provides.py"
+Adding test "sync001.py"
+Adding test "sync002.py"
+Adding test "sync003.py"
+Adding test "sync009.py"
+Adding test "sync010.py"
+Adding test "sync011.py"
+Adding test "sync012.py"
+Adding test "sync020.py"
+Adding test "sync021.py"
+Adding test "sync022.py"
+Adding test "sync023.py"
+Adding test "sync024.py"
+Adding test "sync030.py"
+Adding test "sync031.py"
+Adding test "sync040.py"
+Adding test "sync041.py"
+Adding test "sync042.py"
+Adding test "sync043.py"
+Adding test "sync044.py"
+Adding test "sync045.py"
+Adding test "sync046.py"
+Adding test "sync050.py"
+Adding test "sync051.py"
+Adding test "sync052.py"
+Adding test "sync100.py"
+Adding test "sync1000.py"
+Adding test "sync1003.py"
+Adding test "sync1004.py"
+Adding test "sync1008.py"
+Adding test "sync101.py"
+Adding test "sync102.py"
+Adding test "sync103.py"
+Adding test "sync104.py"
+Adding test "sync110.py"
+Adding test "sync1100.py"
+Adding test "sync1101.py"
+Adding test "sync1102.py"
+Adding test "sync1103.py"
+Adding test "sync1104.py"
+Adding test "sync1105.py"
+Adding test "sync120.py"
+Adding test "sync130.py"
+Adding test "sync131.py"
+Adding test "sync132.py"
+Adding test "sync133.py"
+Adding test "sync134.py"
+Adding test "sync135.py"
+Adding test "sync136.py"
+Adding test "sync137.py"
+Adding test "sync138.py"
+Adding test "sync139.py"
+Adding test "sync140.py"
+Adding test "sync141.py"
+Adding test "sync150.py"
+Adding test "sync200.py"
+Adding test "sync300.py"
+Adding test "sync306.py"
+Adding test "sync400.py"
+Adding test "sync401.py"
+Adding test "sync402.py"
+Adding test "sync403.py"
+Adding test "sync404.py"
+Adding test "sync405.py"
+Adding test "sync406.py"
+Adding test "sync407.py"
+Adding test "sync500.py"
+Adding test "sync501.py"
+Adding test "sync502.py"
+Adding test "sync503.py"
+Adding test "sync600.py"
+Adding test "sync700.py"
+Adding test "sync701.py"
+Adding test "sync702.py"
+Adding test "sync890.py"
+Adding test "sync891.py"
+Adding test "sync892.py"
+Adding test "sync893.py"
+Adding test "sync895.py"
+Adding test "sync896.py"
+Adding test "sync897.py"
+Adding test "sync898.py"
+Adding test "sync899.py"
+Adding test "sync900.py"
+Adding test "sync901.py"
+Adding test "sync990.py"
+Adding test "sync992.py"
+Adding test "sync993.py"
+Adding test "sync999.py"
+Adding test "trans001.py"
+Adding test "type001.py"
+Adding test "unresolvable001.py"
+Adding test "upgrade001.py"
+Adding test "upgrade002.py"
+Adding test "upgrade003.py"
+Adding test "upgrade004.py"
+Adding test "upgrade005.py"
+Adding test "upgrade006.py"
+Adding test "upgrade010.py"
+Adding test "upgrade011.py"
+Adding test "upgrade013.py"
+Adding test "upgrade020.py"
+Adding test "upgrade021.py"
+Adding test "upgrade022.py"
+Adding test "upgrade023.py"
+Adding test "upgrade024.py"
+Adding test "upgrade025.py"
+Adding test "upgrade026.py"
+Adding test "upgrade027.py"
+Adding test "upgrade028.py"
+Adding test "upgrade029.py"
+Adding test "upgrade030.py"
+Adding test "upgrade031.py"
+Adding test "upgrade032.py"
+Adding test "upgrade040.py"
+Adding test "upgrade041.py"
+Adding test "upgrade042.py"
+Adding test "upgrade043.py"
+Adding test "upgrade045.py"
+Adding test "upgrade050.py"
+Adding test "upgrade051.py"
+Adding test "upgrade052.py"
+Adding test "upgrade053.py"
+Adding test "upgrade054.py"
+Adding test "upgrade055.py"
+Adding test "upgrade056.py"
+Adding test "upgrade057.py"
+Adding test "upgrade058.py"
+Adding test "upgrade059.py"
+Adding test "upgrade060.py"
+Adding test "upgrade061.py"
+Adding test "upgrade070.py"
+Adding test "upgrade071.py"
+Adding test "upgrade072.py"
+Adding test "upgrade073.py"
+Adding test "upgrade074.py"
+Adding test "upgrade075.py"
+Adding test "upgrade076.py"
+Adding test "upgrade077.py"
+Adding test "upgrade078.py"
+Adding test "upgrade080.py"
+Adding test "upgrade081.py"
+Adding test "upgrade082.py"
+Adding test "upgrade083.py"
+Adding test "upgrade084.py"
+Adding test "upgrade090.py"
+Adding test "upgrade100.py"
+Adding test "xfercommand001.py"
+Adding test "upgrade-download-404.py"
+Adding test "upgrade-download-pkg-and-sig-with-filename.py"
+Adding test "upgrade-download-pkg-and-sig-without-filename.py"
+Adding test "upgrade-download-with-xfercommand.py"
+Adding test "parseopts_test.sh"
+Adding test "makepkg-template_test.sh"
+Adding test "vercmptest"
+Message: pacman 6.0.1
+    Build information:
+       prefix                  : /usr
+       sysconfdir              : /etc
+           conf file           : /etc/pacman.conf
+       localstatedir           : /var
+           database dir        : /var/lib/pacman/
+           cache dir           : /var/cache/pacman/pkg/
+       compiler                : gcc 11.2.0
+    
+       Architecture            : x86_64
+       Host Type               : x86_64-linux-gnu
+       File inode command      : stat -c '%i %n'
+       File seccomp command    : file -S
+       libalpm version         : 13.0.1
+       pacman version          : 6.0.1
+    
+    Directory and file information:
+       root working directory  : /
+       package extension       : .pkg.tar.gz
+       source pkg extension    : .src.tar.gz
+       build script name       : PKGBUILD
+       template directory      : /usr/share/makepkg-template
+    
+    Compilation options:
+      i18n support             : true
+      Build docs               : false
+      debug build              : true
+      Use libcurl              : true
+      Use GPGME                : true
+      Use OpenSSL              : true
+      Use nettle               : false
+    
+Build targets in project: 116
+WARNING: Deprecated features used:
+ * 0.56.0: {'Dependency.get_pkgconfig_variable'}
+
+Found ninja-1.8.2 at /home/david/depot_tools/ninja
+Running compile:
+Working directory:  /home/david/pacman/build/meson-private/tmpvtasz5w6
+Command line:  cc /home/david/pacman/build/meson-private/tmpvtasz5w6/testfile.c -o /home/david/pacman/build/meson-private/tmpvtasz5w6/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/11/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/11/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/11/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+None of 'STRIP' are defined in the environment, not changing global flags.
+None of 'STRIP' are defined in the environment, not changing global flags.
